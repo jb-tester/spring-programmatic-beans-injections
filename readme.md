@@ -7,3 +7,6 @@
   
 - strange 'null' labels in the AutowireBean... dialog for some beans (Bean1, Bean2)
   <img alt="img.png" height="300" src="img.png" width="250"/>
+
+- debugger: no runtime inlays for the (same as above) autowired beans
+  <img alt="img_3.png" height="200" src="img_3.png" width="500"/>

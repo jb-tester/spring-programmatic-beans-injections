@@ -10,6 +10,7 @@ public class MyBeansRegistrar implements BeanRegistrar {
     @Override
     public void register(BeanRegistry registry, Environment environment) {
         registry.registerBean("bean0", Bean0.class);
+        registry.registerBean("bean00", Bean00.class);
         registry.registerBean("bean1", Bean1.class, customizer -> customizer.supplier(
                 ctx -> new Bean1("b1") {
                 }
